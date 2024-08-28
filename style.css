@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #eaeaea;
+  font-family: 'reboto', sans-serif;
+  border: 1px solid saddlebrown;
+}
+#p1 {
+  font-size: 28px;
+  text-align: center;
+  background: #1b1b1b;
+}
+h1{
+  font-size: 20px;
+  text-align: center;
+}
+ol{
+  font-size: 16px;
+  text-align: center;
+}
+ul{ 
+  font-size: 16px;
+  text-align: center;
+}
+figcaption{
+  font-size: 10px;
+  text-align: center;
+
+}
+div{ 
+  font-size: 10px;
+  text-align: center;
+}
+p {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+}
+img {
+  display: block;
+  width: 50%;
+  margin: auto;
+  border: 2px solid red; 
+}
