@@ -7,21 +7,19 @@ body {
   font-family: "reboto", sans-serif;
   margin-top: 0%;
   padding: 48px 10%;
-  background-color: #EAEAEA;  
-
+  background-color: #eaeaea;
 }
-
 
 #conteiner {
   border-radius: 1%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 :root {
-  --bg-page: #EAEAEA;
-  --bg-rece: #FFFFFF;
-  --text-color: #39393A;
-  --title-color: #1B1B1B;
-  --other-color: #8F8F8F;
+  --bg-page: #eaeaea;
+  --bg-rece: #ffffff;
+  --text-color: #39393a;
+  --title-color: #1b1b1b;
+  --other-color: #8f8f8f;
 }
 
 .subtitle {
@@ -31,11 +29,9 @@ body {
 }
 
 /* textos gerais*/
-.content-block {
-  border: 1px solid red;
 
-}
 
+  
 .list-itens {
   display: flex;
   flex-direction: column;
@@ -48,17 +44,28 @@ body {
 /* imagem*/
 #main-image {
   display: block;
-  max-width: 80%;
-  max-height: 400px;
-  width: auto;
-  height: auto;
-  border-radius: 1%;
-  margin: auto;
+  width: 100%;
+  height: 250px;
+  border-radius: 15px;
+  object-fit:cover;
 }
-/* titulo*/
+figure {
+  padding: 0% 10%;
+
+}
+/* titulo*/ 
 
 #title {
   text-align: center;
   font-size: 28px;
-
+  padding: 20px;
 }
+/* legerda*/
+#text-image {
+  font-size: 12px;
+  color: var(--other-color);
+  text-align: left;
+  text-align: end;
+}
+/* lista de ingredientes */
+
