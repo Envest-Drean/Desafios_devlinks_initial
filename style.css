@@ -4,15 +4,16 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "reboto", sans-serif;
-  margin-top: 0%;
-  padding: 48px 10%;
+ /* font-family: "reboto", sans-serif;*/
+  font-family: "Roboto Condensed", sans-serif;
   background-color: #eaeaea;
+  font-optical-sizing: auto;
 }
 
 #conteiner {
   border-radius: 1%;
   background-color: #ffffff;
+  margin: 48px 10%;
 }
 :root {
   --bg-page: #eaeaea;
@@ -39,6 +40,7 @@ body {
   gap: 15px;
   font-size: 16px;
   color: var(--text-color);
+  margin-left: 9%;
 }
 
 /* imagem*/
@@ -67,5 +69,27 @@ figure {
   text-align: left;
   text-align: end;
 }
-/* lista de ingredientes */
 
+/* informaçoes adicionais*/
+
+.info {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  color: var(--other-color);
+  gap: 15px;
+  margin-left: 9%;;
+}
+footer{
+  text-align: center;
+}
+
+/*
+  display: flex;
+  flex-direction: column;
+  padding: 0px 25px;
+  gap: 15px;
+  font-size: 16px;
+  color: var(--text-color);
+  margin-left: 9%; */
