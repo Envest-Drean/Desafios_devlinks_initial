@@ -30,3 +30,35 @@ body {
   font-size: 20px;
 }
 
+/* textos gerais*/
+.content-block {
+  border: 1px solid red;
+
+}
+
+.list-itens {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 25px;
+  gap: 15px;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+/* imagem*/
+#main-image {
+  display: block;
+  max-width: 80%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  border-radius: 1%;
+  margin: auto;
+}
+/* titulo*/
+
+#title {
+  text-align: center;
+  font-size: 28px;
+
+}
